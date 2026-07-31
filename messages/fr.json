@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "BRAND — Flyer & Motion Design",
+    "description": "Portfolio créatif de flyers publicitaires et motion design."
+  },
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "À propos",
+    "brief": "Brief"
+  },
+  "hero": {
+    "brand": "BRAND",
+    "headline": "Flyers & motion qui marquent.",
+    "sub": "Design publicitaire et motion design pour marques qui veulent se faire remarquer.",
+    "ctaPrimary": "Voir le portfolio",
+    "ctaSecondary": "Lancer un brief"
+  },
+  "home": {
+    "featured": "Œuvres phares",
+    "featuredSub": "Une sélection de projets flyer et motion.",
+    "briefCtaTitle": "Un projet en tête ?",
+    "briefCtaSub": "Décrivez votre besoin — on revient vers vous rapidement.",
+    "briefCtaButton": "Envoyer un brief"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "sub": "Flyers publicitaires et pièces de motion design.",
+    "filterAll": "Tout",
+    "filterFlyer": "Flyer",
+    "filterMotion": "Motion",
+    "empty": "Aucun projet pour ce filtre.",
+    "viewProject": "Voir le projet",
+    "clientBrief": "Contexte",
+    "tools": "Outils",
+    "back": "Retour au portfolio"
+  },
+  "services": {
+    "title": "Services & tarifs",
+    "sub": "Des packs clairs pour flyer, motion ou les deux.",
+    "from": "À partir de"
+  },
+  "about": {
+    "title": "À propos",
+    "process": "Process"
+  },
+  "brief": {
+    "title": "Brief / Contact",
+    "sub": "Parlez-moi de votre projet. Plus c’est précis, plus la réponse est utile.",
+    "name": "Nom",
+    "email": "Email",
+    "projectType": "Type de projet",
+    "typeFlyer": "Flyer",
+    "typeMotion": "Motion",
+    "typeBoth": "Flyer + Motion",
+    "typeOther": "Autre",
+    "deadline": "Délai souhaité",
+    "budget": "Budget indicatif",
+    "message": "Message",
+    "submit": "Envoyer le brief",
+    "sending": "Envoi…",
+    "success": "Brief envoyé. Merci — réponse sous peu.",
+    "error": "Envoi impossible. Réessayez ou écrivez directement par email."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "studio": "Studio CMS"
+  }
+}

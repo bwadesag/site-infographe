@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "BRAND — Flyer & Motion Design",
+    "description": "Creative portfolio for advertising flyers and motion design."
+  },
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "About",
+    "brief": "Brief"
+  },
+  "hero": {
+    "brand": "BRAND",
+    "headline": "Flyers & motion that stick.",
+    "sub": "Advertising design and motion for brands that want to be noticed.",
+    "ctaPrimary": "View portfolio",
+    "ctaSecondary": "Start a brief"
+  },
+  "home": {
+    "featured": "Featured work",
+    "featuredSub": "A selection of flyer and motion projects.",
+    "briefCtaTitle": "Got a project?",
+    "briefCtaSub": "Tell me what you need — I’ll get back to you soon.",
+    "briefCtaButton": "Send a brief"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "sub": "Advertising flyers and motion design pieces.",
+    "filterAll": "All",
+    "filterFlyer": "Flyer",
+    "filterMotion": "Motion",
+    "empty": "No projects for this filter.",
+    "viewProject": "View project",
+    "clientBrief": "Context",
+    "tools": "Tools",
+    "back": "Back to portfolio"
+  },
+  "services": {
+    "title": "Services & pricing",
+    "sub": "Clear packs for flyer, motion, or both.",
+    "from": "From"
+  },
+  "about": {
+    "title": "About",
+    "process": "Process"
+  },
+  "brief": {
+    "title": "Brief / Contact",
+    "sub": "Tell me about your project. The clearer the brief, the better the reply.",
+    "name": "Name",
+    "email": "Email",
+    "projectType": "Project type",
+    "typeFlyer": "Flyer",
+    "typeMotion": "Motion",
+    "typeBoth": "Flyer + Motion",
+    "typeOther": "Other",
+    "deadline": "Desired deadline",
+    "budget": "Indicative budget",
+    "message": "Message",
+    "submit": "Send brief",
+    "sending": "Sending…",
+    "success": "Brief sent. Thanks — you’ll hear back soon.",
+    "error": "Couldn’t send. Try again or email directly."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "studio": "CMS Studio"
+  }
+}
