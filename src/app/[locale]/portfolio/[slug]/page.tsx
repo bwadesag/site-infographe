@@ -44,14 +44,18 @@ export default async function ProjectPage({
       </p>
 
       {project.coverUrl ? (
-        <div className="relative mt-10 aspect-[16/10] w-full overflow-hidden">
+        <div
+          className={`relative mt-10 w-full overflow-hidden bg-[#0c1018] ${
+            project.type === "motion" ? "aspect-video" : "aspect-[3/4] max-w-xl"
+          }`}
+        >
           <Image
             src={project.coverUrl}
-            alt=""
+            alt={loc(project.title, L)}
             fill
             priority
-            sizes="(max-width: 896px) 100vw, 896px"
-            className="object-cover"
+            sizes="(max-width: 896px) 100vw, 576px"
+            className="object-contain"
           />
         </div>
       ) : null}
@@ -91,15 +95,22 @@ export default async function ProjectPage({
       </div>
 
       {project.galleryUrls?.length ? (
-        <div className="mt-12 grid gap-4">
+        <div className="mt-12 grid gap-6">
           {project.galleryUrls.map((url) => (
-            <div key={url} className="relative aspect-[16/10] w-full overflow-hidden">
+            <div
+              key={url}
+              className={`relative w-full overflow-hidden bg-[#0c1018] ${
+                project.type === "motion"
+                  ? "aspect-video"
+                  : "aspect-[3/4] max-w-xl"
+              }`}
+            >
               <Image
                 src={url}
                 alt=""
                 fill
-                sizes="(max-width: 896px) 100vw, 896px"
-                className="object-cover"
+                sizes="(max-width: 896px) 100vw, 576px"
+                className="object-contain"
               />
             </div>
           ))}

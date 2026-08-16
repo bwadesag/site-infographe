@@ -7,21 +7,25 @@
   --muted: #8b97ad;
   --glass: rgba(255, 255, 255, 0.06);
   --glass-border: rgba(255, 255, 255, 0.12);
-  --neon-cyan: #2ee6d6;
-  --neon-magenta: #ff3d9a;
+  /* ponytail: brand red from Kaméleon logo as primary accent */
+  --neon-cyan: #e10600;
+  --neon-magenta: #ff3d4a;
   --gradient-hero: radial-gradient(
       120% 80% at 70% 20%,
-      rgba(46, 230, 214, 0.18),
+      rgba(225, 6, 0, 0.22),
       transparent 55%
     ),
     radial-gradient(
       90% 70% at 15% 80%,
-      rgba(255, 61, 154, 0.12),
+      rgba(255, 61, 74, 0.12),
       transparent 50%
     ),
-    linear-gradient(165deg, #06080f 0%, #0a1220 45%, #08060f 100%);
-  --font-display: var(--font-syne);
-  --font-body: var(--font-dm-sans);
+    linear-gradient(165deg, #06080f 0%, #12080a 45%, #08060f 100%);
+  /* Avenir site-wide — add .woff2 in public/fonts for Windows/all browsers */
+  --font-avenir: "Avenir Next", Avenir, "Avenir LT Std", "Helvetica Neue",
+    Helvetica, sans-serif;
+  --font-display: var(--font-avenir);
+  --font-body: var(--font-avenir);
 }
 
 @theme inline {
@@ -42,7 +46,7 @@ html[data-scroll-behavior="smooth"] {
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: var(--font-body), system-ui, sans-serif;
+  font-family: var(--font-avenir);
   min-height: 100%;
 }
 
@@ -60,7 +64,7 @@ h1,
 h2,
 h3,
 .font-display {
-  font-family: var(--font-display), system-ui, sans-serif;
+  font-family: var(--font-avenir);
 }
 
 a {
@@ -75,7 +79,7 @@ a {
 }
 
 .neon-text {
-  text-shadow: 0 0 24px rgba(46, 230, 214, 0.35);
+  text-shadow: 0 0 24px rgba(225, 6, 0, 0.4);
 }
 
 @media (prefers-reduced-motion: reduce) {

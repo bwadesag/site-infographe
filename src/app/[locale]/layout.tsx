@@ -1,6 +1,5 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-import { Syne, DM_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -8,18 +7,6 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { routing } from "@/i18n/routing";
 import { getSettings } from "@/sanity/lib/fetch";
 import "../globals.css";
-
-const syne = Syne({
-  subsets: ["latin"],
-  variable: "--font-syne",
-  display: "swap",
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  variable: "--font-dm-sans",
-  display: "swap",
-});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -35,7 +22,7 @@ export async function generateMetadata({
   return {
     title: {
       default: t("title"),
-      template: `%s · BRAND`,
+      template: `%s · Kaméleon AG`,
     },
     description: t("description"),
     openGraph: {
@@ -71,7 +58,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       data-scroll-behavior="smooth"
-      className={`${syne.variable} ${dmSans.variable} h-full`}
+      className="h-full"
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col antialiased">

@@ -55,5 +55,12 @@ export async function getServices(): Promise<Service[]> {
 }
 
 export async function getAbout(): Promise<AboutContent> {
-  return fetchOrDemo(aboutQuery, {}, demoAbout);
+  const data = await fetchOrDemo(aboutQuery, {}, demoAbout);
+  // ponytail: older About docs may miss the new field
+  return {
+    ...demoAbout,
+    ...data,
+    processSteps: data.processSteps?.length ? data.processSteps : demoAbout.processSteps,
+    trustedClients: data.trustedClients ?? [],
+  };
 }

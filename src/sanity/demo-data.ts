@@ -1,13 +1,13 @@
 import type { AboutContent, Project, Service, SiteSettings } from "./types";
 
 export const demoSettings: SiteSettings = {
-  brandName: "BRAND",
+  brandName: "Kaméleon AG",
   tagline: {
     fr: "Flyers & motion qui marquent.",
     en: "Flyers & motion that stick.",
   },
   showreelUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-  contactEmail: "hello@brand.studio",
+  contactEmail: "hello@kameleon-ag.com",
   socialLinks: [
     { label: "Instagram", url: "https://instagram.com" },
     { label: "Behance", url: "https://behance.net" },
@@ -143,6 +143,7 @@ export const demoAbout: AboutContent = {
     fr: "Je conçois des flyers publicitaires et du motion design pour des marques, clubs et lancements produit. Esthétique glass / néon, exécution nette, message clair.",
     en: "I craft advertising flyers and motion design for brands, clubs, and product drops. Glass / neon aesthetic, clean execution, clear message.",
   },
+  trustedClients: [],
   processSteps: [
     {
       title: { fr: "Brief", en: "Brief" },

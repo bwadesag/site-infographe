@@ -45,7 +45,7 @@ export default async function HomePage({
           <p className="mt-3 max-w-lg text-[var(--muted)]">{t("briefCtaSub")}</p>
           <Link
             href="/brief"
-            className="mt-8 inline-block rounded-sm bg-[var(--neon-magenta)] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-110"
+            className="mt-8 inline-block rounded-sm bg-[var(--neon-cyan)] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-110"
           >
             {t("briefCtaButton")}
           </Link>

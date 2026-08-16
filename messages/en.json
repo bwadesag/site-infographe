@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "BRAND — Flyer & Motion Design",
+    "title": "Kaméleon AG — Flyer & Motion Design",
     "description": "Creative portfolio for advertising flyers and motion design."
   },
   "nav": {
@@ -11,11 +11,11 @@
     "brief": "Brief"
   },
   "hero": {
-    "brand": "BRAND",
-    "headline": "Flyers & motion that stick.",
-    "sub": "Advertising design and motion for brands that want to be noticed.",
+    "brand": "Kaméleon AG",
+    "headline": "Captivate your audience at a glance..",
+    "sub": "From impactful flyers to captivating motion design, we create bespoke visuals and high-intensity campaigns that set your brand apart, attract your customers, and propel your results.",
     "ctaPrimary": "View portfolio",
-    "ctaSecondary": "Start a brief"
+"ctaSecondary": "Start a brief"
   },
   "home": {
     "featured": "Featured work",
@@ -43,7 +43,9 @@
   },
   "about": {
     "title": "About",
-    "process": "Process"
+    "process": "Process",
+    "trusted": "They trust us",
+    "trustedEmpty": "Partner logos will be added soon."
   },
   "brief": {
     "title": "Brief / Contact",

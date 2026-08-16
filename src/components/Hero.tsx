@@ -2,6 +2,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { BrandLogo } from "@/components/BrandLogo";
 import { Link } from "@/i18n/navigation";
 
 type HeroProps = {
@@ -33,16 +34,15 @@ export function Hero({ brandName, showreelUrl }: HeroProps) {
       ) : null}
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-16 pt-28 md:pb-24">
-        <motion.p
-          className="font-display text-5xl font-bold tracking-tight text-[var(--neon-cyan)] neon-text md:text-7xl lg:text-8xl"
+        <motion.div
           initial={reduce ? false : { opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
-          {brandName || t("brand")}
-        </motion.p>
+          <BrandLogo brandName={brandName} size="hero" link={false} />
+        </motion.div>
         <motion.h1
-          className="mt-4 max-w-2xl font-display text-2xl font-semibold leading-tight text-[var(--fg)] md:text-4xl"
+          className="mt-6 max-w-2xl font-display text-2xl font-semibold leading-tight text-[var(--fg)] md:text-4xl"
           initial={reduce ? false : { opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
@@ -65,13 +65,13 @@ export function Hero({ brandName, showreelUrl }: HeroProps) {
         >
           <Link
             href="/portfolio"
-            className="rounded-sm bg-[var(--neon-cyan)] px-5 py-3 text-sm font-semibold text-[#041016] transition hover:brightness-110"
+            className="rounded-sm bg-[var(--neon-cyan)] px-5 py-3 text-sm font-semibold text-white transition hover:brightness-110"
           >
             {t("ctaPrimary")}
           </Link>
           <Link
             href="/brief"
-            className="glass rounded-sm px-5 py-3 text-sm font-semibold text-[var(--fg)] transition hover:border-[var(--neon-magenta)]/40"
+            className="glass rounded-sm px-5 py-3 text-sm font-semibold text-[var(--fg)] transition hover:border-white/30"
           >
             {t("ctaSecondary")}
           </Link>

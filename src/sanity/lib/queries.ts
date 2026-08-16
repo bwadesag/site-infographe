@@ -65,5 +65,10 @@ export const aboutQuery = `*[_type == "about"][0] {
   "processSteps": processSteps[]{
     "title": { "fr": title.fr, "en": title.en },
     "body": { "fr": body.fr, "en": body.en }
-  }
+  },
+  "trustedClients": coalesce(trustedClients[]{
+    name,
+    "logoUrl": logo.asset->url,
+    url
+  }, [])
 }`;

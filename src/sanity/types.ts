@@ -37,9 +37,16 @@ export type SiteSettings = {
   socialLinks?: { label: string; url: string }[];
 };
 
+export type TrustedClient = {
+  name: string;
+  logoUrl?: string;
+  url?: string;
+};
+
 export type AboutContent = {
   bio: LocalizedString;
   processSteps: { title: LocalizedString; body: LocalizedString }[];
+  trustedClients?: TrustedClient[];
 };
 
 export function t(value: LocalizedString | undefined, locale: Locale): string {

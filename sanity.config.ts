@@ -7,8 +7,8 @@ import { schemaTypes } from "./src/sanity/schemaTypes";
 const id = projectId || "placeholder";
 
 export default defineConfig({
-  name: "brand-portfolio",
-  title: "BRAND Portfolio",
+  name: "kameleon-ag",
+  title: "Kaméleon AG",
   projectId: id,
   dataset,
   basePath: "/studio",

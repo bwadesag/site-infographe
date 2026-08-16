@@ -1,4 +1,4 @@
-# BRAND — Portfolio Flyer & Motion
+# Kaméleon AG — Portfolio Flyer & Motion
 
 Site portfolio bilingue (FR/EN) pour flyer publicitaire et motion design.
 
@@ -42,4 +42,5 @@ Copie `.env.example` → `.env.local` :
 
 Déploie sur Vercel, ajoute les variables d’env, pointe le domaine.
 
-Remplace le placeholder **BRAND** (messages + Sanity `brandName`) et le logo quand prêts.
+Marque : **Kaméleon AG** — logo dans `public/logo-kameleon-ag.png`.  
+Sanity project ID : `rc7se525` (voir `.env.local`).

@@ -19,5 +19,38 @@ export const about = defineType({
         },
       ],
     }),
+    defineField({
+      name: "trustedClients",
+      title: "Ils nous font confiance",
+      type: "array",
+      of: [
+        {
+          type: "object",
+          fields: [
+            defineField({
+              name: "name",
+              title: "Nom entreprise",
+              type: "string",
+              validation: (r) => r.required(),
+            }),
+            defineField({
+              name: "logo",
+              title: "Logo",
+              type: "image",
+              options: { hotspot: true },
+              validation: (r) => r.required(),
+            }),
+            defineField({
+              name: "url",
+              title: "Site web (optionnel)",
+              type: "url",
+            }),
+          ],
+          preview: {
+            select: { title: "name", media: "logo" },
+          },
+        },
+      ],
+    }),
   ],
 });
