@@ -24,7 +24,8 @@ async function fetchOrDemo<T>(
   if (!hasSanity || !client) return demo;
   try {
     const data = await client.fetch<T>(query, params, {
-      next: { revalidate: 60 },
+      next: { revalidate: 0 },
+      perspective: "published",
     });
     return data ?? demo;
   } catch {
