@@ -1,13 +1,12 @@
 import { createClient } from "next-sanity";
-import { apiVersion, dataset, hasSanity, projectId } from "../env";
+import { apiVersion, dataset, projectId } from "../env";
 
 const useCdn = process.env.NEXT_PUBLIC_SANITY_USE_CDN !== "false";
 
-export const client = hasSanity
-  ? createClient({
-      projectId,
-      dataset,
-      apiVersion,
-      useCdn,
-    })
-  : null;
+// ponytail: always a real client so defineLive typechecks; fetch.ts still skips via hasSanity
+export const client = createClient({
+  projectId: projectId || "unset",
+  dataset,
+  apiVersion,
+  useCdn,
+});

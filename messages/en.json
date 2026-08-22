@@ -38,49 +38,59 @@
   },
   "services": {
     "title": "Visuals that stick. Clear packs.",
-    "sub": "Print-ready flyer, motion teaser, or both — one identity, files ready to publish. Prices in FCFA.",
+    "sub": "Print-ready flyer, motion teaser, or both — same identity, files ready to publish.",
     "cta": "Start a brief",
     "from": "From",
-    "featured": "Most chosen",
-    "forWhomTitle": "Who it’s for",
+    "popular": "Most chosen",
+    "audiencesTitle": "Who it’s for",
     "audiences": [
-      "Clubs, festivals and events",
-      "Brands and product launches",
-      "Agencies and independents who need clean execution"
+      {
+        "title": "Clubs, festivals, events",
+        "body": "Posters and teasers that fill a night."
+      },
+      {
+        "title": "Brands and product drops",
+        "body": "A strong visual for a launch, promo, or new offer."
+      },
+      {
+        "title": "Agencies and independents",
+        "body": "Clean execution, print-ready files, no friction."
+      }
     ],
-    "includedTitle": "Included in every pack",
-    "included": [
-      "Print + web / WhatsApp files",
+    "includedTitle": "What’s included",
+    "includedItems": [
+      "Print + WhatsApp / web files",
       "2 revision rounds",
-      "Requested formats (A5, A6, story, vertical, horizontal)"
+      "Requested formats (A5, A6, story…)"
     ],
-    "excludedTitle": "Quoted separately",
-    "excluded": [
+    "extraTitle": "On quote",
+    "extraItems": [
       "Printing",
-      "Photo / video shooting",
-      "Heavy 3D and large variant sets"
+      "Photo shoot",
+      "Heavy 3D",
+      "Batch of variations"
     ],
     "faqTitle": "FAQ",
-    "faq": [
+    "faqs": [
       {
         "q": "How long does it take?",
-        "a": "Flyer: 3–5 business days. Motion: 7–10 days. Combo: about 10 days. A clear brief speeds everything up."
+        "a": "About 5–7 days for a flyer, 10–14 days for motion — depending on the brief."
       },
       {
         "q": "How many revisions?",
-        "a": "2 rounds included. Beyond that, we quote a top-up before continuing."
+        "a": "2 rounds included. Extra rounds are quoted separately."
       },
       {
-        "q": "Do you print as well?",
-        "a": "No. We deliver print-ready files. Printing is with your printer."
+        "q": "Do you print?",
+        "a": "No. We deliver print-ready files. You print with your printer."
       },
       {
         "q": "How do we start?",
-        "a": "Send a brief: project type, date, indicative budget, and the message you want to land."
+        "a": "Send a brief. You’ll get a quote and a timeline, in FCFA."
       }
     ],
     "briefCtaTitle": "Got a project?",
-    "briefCtaSub": "Tell us what you need — we’ll get back to you soon.",
+    "briefCtaSub": "Tell us what you need — quick reply, quote in FCFA.",
     "briefCtaButton": "Send a brief"
   },
   "about": {

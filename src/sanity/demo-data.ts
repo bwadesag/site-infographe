@@ -129,7 +129,6 @@ export const demoServices: Service[] = [
       en: "Matching flyer + motion for one campaign.",
     },
     priceFrom: "95 000 FCFA",
-    highlighted: true,
     features: [
       { fr: "Identité visuelle unifiée", en: "Unified visual identity" },
       { fr: "Flyer prêt à imprimer", en: "Print-ready flyer" },
