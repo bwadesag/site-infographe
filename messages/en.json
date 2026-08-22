@@ -37,9 +37,51 @@
     "back": "Back to portfolio"
   },
   "services": {
-    "title": "Services & pricing",
-    "sub": "Clear packs for flyer, motion, or both.",
-    "from": "From"
+    "title": "Visuals that stick. Clear packs.",
+    "sub": "Print-ready flyer, motion teaser, or both — one identity, files ready to publish. Prices in FCFA.",
+    "cta": "Start a brief",
+    "from": "From",
+    "featured": "Most chosen",
+    "forWhomTitle": "Who it’s for",
+    "audiences": [
+      "Clubs, festivals and events",
+      "Brands and product launches",
+      "Agencies and independents who need clean execution"
+    ],
+    "includedTitle": "Included in every pack",
+    "included": [
+      "Print + web / WhatsApp files",
+      "2 revision rounds",
+      "Requested formats (A5, A6, story, vertical, horizontal)"
+    ],
+    "excludedTitle": "Quoted separately",
+    "excluded": [
+      "Printing",
+      "Photo / video shooting",
+      "Heavy 3D and large variant sets"
+    ],
+    "faqTitle": "FAQ",
+    "faq": [
+      {
+        "q": "How long does it take?",
+        "a": "Flyer: 3–5 business days. Motion: 7–10 days. Combo: about 10 days. A clear brief speeds everything up."
+      },
+      {
+        "q": "How many revisions?",
+        "a": "2 rounds included. Beyond that, we quote a top-up before continuing."
+      },
+      {
+        "q": "Do you print as well?",
+        "a": "No. We deliver print-ready files. Printing is with your printer."
+      },
+      {
+        "q": "How do we start?",
+        "a": "Send a brief: project type, date, indicative budget, and the message you want to land."
+      }
+    ],
+    "briefCtaTitle": "Got a project?",
+    "briefCtaSub": "Tell us what you need — we’ll get back to you soon.",
+    "briefCtaButton": "Send a brief"
   },
   "about": {
     "title": "About",

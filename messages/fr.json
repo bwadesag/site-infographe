@@ -37,9 +37,51 @@
     "back": "Retour au portfolio"
   },
   "services": {
-    "title": "Services & tarifs",
-    "sub": "Des packs clairs pour flyer, motion ou les deux.",
-    "from": "À partir de"
+    "title": "Des visuels qui marquent. Des packs clairs.",
+    "sub": "Flyer prêt à imprimer, teaser motion, ou les deux — même identité, fichiers prêts à publier. Tarifs en FCFA.",
+    "cta": "Lancer un brief",
+    "from": "À partir de",
+    "featured": "Le plus choisi",
+    "forWhomTitle": "Pour qui",
+    "audiences": [
+      "Clubs, festivals et événements",
+      "Marques et lancements produit",
+      "Agences et indépendants qui veulent une exécution nette"
+    ],
+    "includedTitle": "Inclus dans chaque pack",
+    "included": [
+      "Fichiers print + web / WhatsApp",
+      "2 allers-retours",
+      "Formats demandés (A5, A6, story, vertical, horizontal)"
+    ],
+    "excludedTitle": "Sur devis",
+    "excluded": [
+      "Impression",
+      "Shooting photo / vidéo",
+      "3D lourd et séries de déclinaisons"
+    ],
+    "faqTitle": "Questions fréquentes",
+    "faq": [
+      {
+        "q": "Combien de temps ça prend ?",
+        "a": "Flyer : 3 à 5 jours ouvrés. Motion : 7 à 10 jours. Combo : environ 10 jours. Un brief clair accélère tout."
+      },
+      {
+        "q": "Combien de révisions ?",
+        "a": "2 allers-retours inclus. Au-delà, on chiffre un complément avant de continuer."
+      },
+      {
+        "q": "Vous imprimez aussi ?",
+        "a": "Non. On livre des fichiers prêts à imprimer. L’impression se fait chez votre imprimeur."
+      },
+      {
+        "q": "Comment on démarre ?",
+        "a": "Envoyez un brief : type de projet, date, budget indicatif et ce que vous voulez faire passer."
+      }
+    ],
+    "briefCtaTitle": "Un projet en tête ?",
+    "briefCtaSub": "Décrivez votre besoin — on vous répond rapidement.",
+    "briefCtaButton": "Envoyer un brief"
   },
   "about": {
     "title": "À propos",

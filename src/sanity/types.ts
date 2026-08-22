@@ -25,6 +25,7 @@ export type Service = {
   title: LocalizedString;
   description: LocalizedString;
   priceFrom?: string;
+  highlighted?: boolean;
   features?: LocalizedString[];
   order?: number;
 };

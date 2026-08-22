@@ -48,6 +48,7 @@ export const servicesQuery = `*[_type == "service"] | order(order asc) {
   "title": { "fr": title.fr, "en": title.en },
   "description": { "fr": description.fr, "en": description.en },
   priceFrom,
+  highlighted,
   "features": features[]{ "fr": fr, "en": en },
   order
 }`;

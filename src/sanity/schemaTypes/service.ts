@@ -7,7 +7,13 @@ export const service = defineType({
   fields: [
     defineField({ name: "title", type: "localizedString", validation: (r) => r.required() }),
     defineField({ name: "description", type: "localizedText" }),
-    defineField({ name: "priceFrom", title: "Price from", type: "string" }),
+    defineField({ name: "priceFrom", title: "Prix à partir de", type: "string" }),
+    defineField({
+      name: "highlighted",
+      title: "Mettre en avant",
+      type: "boolean",
+      initialValue: false,
+    }),
     defineField({
       name: "features",
       type: "array",

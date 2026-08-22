@@ -52,7 +52,9 @@ export async function getProjectBySlug(slug: string): Promise<Project | null> {
 }
 
 export async function getServices(): Promise<Service[]> {
-  return fetchOrDemo(servicesQuery, {}, demoServices);
+  const data = await fetchOrDemo(servicesQuery, {}, demoServices);
+  // ponytail: empty CMS query is [] not null, so fall back to demo packs
+  return data.length ? data : demoServices;
 }
 
 export async function getAbout(): Promise<AboutContent> {
