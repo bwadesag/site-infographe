@@ -48,75 +48,70 @@
       "2 revision rounds",
       "Print + WhatsApp"
     ],
-    "packsTitle": "Pick how you hit",
-    "packsSub": "Three packs. Same standard. Combo is the full campaign — and you save 10,000 FCFA.",
+    "jump": {
+      "flyer": "Flyer",
+      "motion": "Motion",
+      "combo": "Combo"
+    },
+    "pick": "The packs",
+    "pickSub": "Click a pack to see the full offer — price, what’s included, examples.",
     "from": "From",
-    "popular": "Full campaign",
-    "packCta": "Brief this pack",
+    "popular": "Most chosen",
+    "idealFor": "Best for",
+    "youGet": "What you get",
+    "worksTitle": "Examples",
+    "worksSub": "Projects of the same type, like on the portfolio.",
+    "packCta": "Start this brief",
+    "seeExample": "View project",
     "packCopy": {
       "flyer": {
-        "kicker": "Print + status",
-        "promise": "The flyer people photograph at the door and send in the group before they arrive."
+        "audience": "Nights, events, promos",
+        "promise": "1 concept, print-ready."
       },
       "motion": {
-        "kicker": "Screen",
-        "promise": "10–20 seconds. The thumb stops. The status gets shared. The drop exists."
+        "audience": "WhatsApp, Reels, TikTok, launches",
+        "promise": "10–20 second teaser."
       },
       "combo": {
-        "kicker": "Campaign",
-        "promise": "Poster, story, teaser — one identity. Everything speaks with one voice."
+        "audience": "Full campaign",
+        "promise": "Flyer + motion, one identity."
       }
     },
-    "audiencesTitle": "You call us when",
-    "audiences": [
-      {
-        "title": "The room has to be full on Friday",
-        "body": "Clubs, gigs, festivals: a visual that forwards itself."
-      },
-      {
-        "title": "The drop has to click on the first story",
-        "body": "Brands and launches: the teaser does the work before the product."
-      },
-      {
-        "title": "You need an executor who doesn’t water it down",
-        "body": "Agencies and independents: clean files, held deadlines, no blur."
-      }
-    ],
-    "includedTitle": "We handle it",
+    "includedTitle": "Included",
     "includedItems": [
       "Print + WhatsApp / web files",
-      "2 honest revision rounds",
-      "The format you need (A5, A6, story…)"
+      "2 revision rounds",
+      "Requested formats (A5, A6, story…)"
     ],
-    "extraTitle": "Quoted separately",
+    "extraTitle": "On quote",
     "extraItems": [
-      "Printing (we deliver print-ready)",
+      "Printing",
       "Photo shoot",
       "Heavy 3D",
-      "A batch of variations"
+      "Batch of variations"
     ],
-    "faqTitle": "The real questions",
+    "faqTitle": "Questions",
     "faqs": [
       {
-        "q": "How long?",
-        "a": "Flyer within the week. Motion in 10–14 days. Clear brief = faster."
+        "q": "How long does it take?",
+        "a": "Flyer ~5–7 days, motion ~10–14 days — depending on the brief."
       },
       {
-        "q": "Can I change things?",
-        "a": "Two rounds included. After that we re-quote — no surprises."
+        "q": "How many revisions?",
+        "a": "2 rounds included. Extra rounds are quoted separately."
       },
       {
         "q": "Do you print?",
-        "a": "No. We deliver files your printer can use. You handle the paper."
+        "a": "No. Print-ready files, you print with your printer."
       },
       {
-        "q": "Where do we start?",
-        "a": "A brief. You get a price in FCFA and a date. That’s it."
+        "q": "How do we start?",
+        "a": "A brief. You get a price and a date."
       }
     ],
-    "briefCtaTitle": "You have the project. We have the visual.",
-    "briefCtaSub": "Night, drop, campaign: tell us what you want people to feel. We reply with a quote in FCFA.",
-    "briefCtaButton": "Send the brief"
+    "briefCtaTitle": "Got a project?",
+    "briefCtaSub": "Tell us what you need — quick reply, quote in FCFA.",
+    "briefCtaButton": "Send a brief"
   },
   "about": {
     "title": "About",

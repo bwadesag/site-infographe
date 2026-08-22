@@ -48,75 +48,70 @@
       "2 allers-retours",
       "Print + WhatsApp"
     ],
-    "packsTitle": "Choisis comment tu frappes",
-    "packsSub": "Trois packs. Même exigence. Le Combo, c’est la campagne complète — et tu gagnes 10 000 FCFA.",
+    "jump": {
+      "flyer": "Flyer",
+      "motion": "Motion",
+      "combo": "Combo"
+    },
+    "pick": "Les packs",
+    "pickSub": "Clique un pack pour voir l’offre en détail — prix, inclus, exemples.",
     "from": "À partir de",
-    "popular": "La campagne complète",
-    "packCta": "Brief ce pack",
+    "popular": "Le plus choisi",
+    "idealFor": "Idéal pour",
+    "youGet": "Ce que tu reçois",
+    "worksTitle": "Exemples",
+    "worksSub": "Des projets du même type, comme sur le portfolio.",
+    "packCta": "Lancer ce brief",
+    "seeExample": "Voir le projet",
     "packCopy": {
       "flyer": {
-        "kicker": "Print + statut",
-        "promise": "Le flyer qu’on photographie à l’entrée et qu’on envoie dans le groupe avant d’arriver."
+        "audience": "Soirée, event, promo",
+        "promise": "1 concept, prêt à imprimer."
       },
       "motion": {
-        "kicker": "Écran",
-        "promise": "10 à 20 secondes. Le pouce s’arrête. Le statut se partage. Le drop existe."
+        "audience": "WhatsApp, Reels, TikTok, lancement",
+        "promise": "Teaser 10–20 secondes."
       },
       "combo": {
-        "kicker": "Campagne",
-        "promise": "Affiche, story, teaser — une seule identité. Tout parle d’une voix."
+        "audience": "Campagne complète",
+        "promise": "Flyer + motion, une seule identité."
       }
     },
-    "audiencesTitle": "Tu nous appelles quand",
-    "audiences": [
-      {
-        "title": "La salle doit être pleine vendredi",
-        "body": "Clubs, concerts, festivals : un visuel qui se forward tout seul."
-      },
-      {
-        "title": "Le drop doit cliquer dès la première story",
-        "body": "Marques et lancements : le teaser fait le travail avant même le produit."
-      },
-      {
-        "title": "Il faut un exécutant qui ne négocie pas le punch",
-        "body": "Agences et indépendants : fichiers nets, délais tenus, zéro flou."
-      }
-    ],
-    "includedTitle": "On s’en occupe",
+    "includedTitle": "Inclus",
     "includedItems": [
       "Fichiers print + WhatsApp / web",
-      "2 allers-retours francs",
-      "Le format dont tu as besoin (A5, A6, story…)"
+      "2 allers-retours",
+      "Formats demandés (A5, A6, story…)"
     ],
-    "extraTitle": "On chiffre à part",
+    "extraTitle": "Sur devis",
     "extraItems": [
-      "L’impression (on te livre print-ready)",
+      "Impression",
       "Shooting photo",
       "3D lourd",
-      "Une série de déclinaisons"
+      "Série de déclinaisons"
     ],
-    "faqTitle": "Les vraies questions",
+    "faqTitle": "Questions",
     "faqs": [
       {
-        "q": "C’est long ?",
-        "a": "Flyer dans la semaine. Motion en 10–14 jours. Brief clair = plus vite."
+        "q": "Combien de temps ?",
+        "a": "Flyer ~5–7 jours, motion ~10–14 jours — selon le brief."
       },
       {
-        "q": "Je peux corriger ?",
-        "a": "Deux allers-retours inclus. Après, on recadre le devis — pas de surprise."
+        "q": "Combien de révisions ?",
+        "a": "2 allers-retours inclus. Au-delà, sur devis."
       },
       {
         "q": "Vous imprimez ?",
-        "a": "Non. On livre des fichiers nickel pour ton imprimeur. Toi tu gères le papier."
+        "a": "Non. Fichiers print-ready, impression chez votre imprimeur."
       },
       {
-        "q": "On commence où ?",
-        "a": "Un brief. On revient avec un prix en FCFA et une date. C’est tout."
+        "q": "Comment on démarre ?",
+        "a": "Un brief. On revient avec un prix et une date."
       }
     ],
-    "briefCtaTitle": "T’as le projet. On a le visuel.",
-    "briefCtaSub": "Soirée, drop, campagne : décris ce que tu veux faire vivre. On répond avec un devis en FCFA.",
-    "briefCtaButton": "Envoyer le brief"
+    "briefCtaTitle": "Un projet en tête ?",
+    "briefCtaSub": "Décrivez le besoin — réponse rapide, devis en FCFA.",
+    "briefCtaButton": "Envoyer un brief"
   },
   "about": {
     "title": "À propos",
