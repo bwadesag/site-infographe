@@ -95,8 +95,8 @@ export const demoServices: Service[] = [
     _id: "svc-1",
     title: { fr: "Pack Flyer", en: "Flyer Pack" },
     description: {
-      fr: "1 concept + 2 révisions, fichier prêt à imprimer.",
-      en: "1 concept + 2 revisions, print-ready file.",
+      fr: "Le visuel qu’on photographie et qu’on forward — print-ready.",
+      en: "The visual people photograph and forward — print-ready.",
     },
     priceFrom: "25 000 FCFA",
     features: [
@@ -110,8 +110,8 @@ export const demoServices: Service[] = [
     _id: "svc-2",
     title: { fr: "Pack Motion", en: "Motion Pack" },
     description: {
-      fr: "Teaser 10–20s pour WhatsApp, Reels et TikTok.",
-      en: "10–20s teaser for WhatsApp, Reels and TikTok.",
+      fr: "Teaser 10–20s : le pouce s’arrête, le statut se partage.",
+      en: "10–20s teaser: the thumb stops, the status gets shared.",
     },
     priceFrom: "80 000 FCFA",
     features: [
@@ -125,8 +125,8 @@ export const demoServices: Service[] = [
     _id: "svc-3",
     title: { fr: "Pack Combo", en: "Combo Pack" },
     description: {
-      fr: "Flyer + motion cohérents pour une même campagne.",
-      en: "Matching flyer + motion for one campaign.",
+      fr: "Affiche + teaser, une seule voix — la campagne complète.",
+      en: "Poster + teaser, one voice — the full campaign.",
     },
     priceFrom: "95 000 FCFA",
     features: [

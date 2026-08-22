@@ -37,61 +37,86 @@
     "back": "Back to portfolio"
   },
   "services": {
-    "title": "Visuals that stick. Clear packs.",
-    "sub": "Print-ready flyer, motion teaser, or both — same identity, files ready to publish.",
+    "kicker": "Flyer · Motion · Combo",
+    "title": "A visual people forward. A room that fills.",
+    "sub": "We don’t deliver a generic file. We give you the punch for the night, the drop, the campaign — print-ready and WhatsApp-ready.",
     "cta": "Start a brief",
+    "ctaPacks": "See the packs",
+    "proof": [
+      "Quote in FCFA",
+      "Flyer in 5–7 days",
+      "2 revision rounds",
+      "Print + WhatsApp"
+    ],
+    "packsTitle": "Pick how you hit",
+    "packsSub": "Three packs. Same standard. Combo is the full campaign — and you save 10,000 FCFA.",
     "from": "From",
-    "popular": "Most chosen",
-    "audiencesTitle": "Who it’s for",
+    "popular": "Full campaign",
+    "packCta": "Brief this pack",
+    "packCopy": {
+      "flyer": {
+        "kicker": "Print + status",
+        "promise": "The flyer people photograph at the door and send in the group before they arrive."
+      },
+      "motion": {
+        "kicker": "Screen",
+        "promise": "10–20 seconds. The thumb stops. The status gets shared. The drop exists."
+      },
+      "combo": {
+        "kicker": "Campaign",
+        "promise": "Poster, story, teaser — one identity. Everything speaks with one voice."
+      }
+    },
+    "audiencesTitle": "You call us when",
     "audiences": [
       {
-        "title": "Clubs, festivals, events",
-        "body": "Posters and teasers that fill a night."
+        "title": "The room has to be full on Friday",
+        "body": "Clubs, gigs, festivals: a visual that forwards itself."
       },
       {
-        "title": "Brands and product drops",
-        "body": "A strong visual for a launch, promo, or new offer."
+        "title": "The drop has to click on the first story",
+        "body": "Brands and launches: the teaser does the work before the product."
       },
       {
-        "title": "Agencies and independents",
-        "body": "Clean execution, print-ready files, no friction."
+        "title": "You need an executor who doesn’t water it down",
+        "body": "Agencies and independents: clean files, held deadlines, no blur."
       }
     ],
-    "includedTitle": "What’s included",
+    "includedTitle": "We handle it",
     "includedItems": [
       "Print + WhatsApp / web files",
-      "2 revision rounds",
-      "Requested formats (A5, A6, story…)"
+      "2 honest revision rounds",
+      "The format you need (A5, A6, story…)"
     ],
-    "extraTitle": "On quote",
+    "extraTitle": "Quoted separately",
     "extraItems": [
-      "Printing",
+      "Printing (we deliver print-ready)",
       "Photo shoot",
       "Heavy 3D",
-      "Batch of variations"
+      "A batch of variations"
     ],
-    "faqTitle": "FAQ",
+    "faqTitle": "The real questions",
     "faqs": [
       {
-        "q": "How long does it take?",
-        "a": "About 5–7 days for a flyer, 10–14 days for motion — depending on the brief."
+        "q": "How long?",
+        "a": "Flyer within the week. Motion in 10–14 days. Clear brief = faster."
       },
       {
-        "q": "How many revisions?",
-        "a": "2 rounds included. Extra rounds are quoted separately."
+        "q": "Can I change things?",
+        "a": "Two rounds included. After that we re-quote — no surprises."
       },
       {
         "q": "Do you print?",
-        "a": "No. We deliver print-ready files. You print with your printer."
+        "a": "No. We deliver files your printer can use. You handle the paper."
       },
       {
-        "q": "How do we start?",
-        "a": "Send a brief. You’ll get a quote and a timeline, in FCFA."
+        "q": "Where do we start?",
+        "a": "A brief. You get a price in FCFA and a date. That’s it."
       }
     ],
-    "briefCtaTitle": "Got a project?",
-    "briefCtaSub": "Tell us what you need — quick reply, quote in FCFA.",
-    "briefCtaButton": "Send a brief"
+    "briefCtaTitle": "You have the project. We have the visual.",
+    "briefCtaSub": "Night, drop, campaign: tell us what you want people to feel. We reply with a quote in FCFA.",
+    "briefCtaButton": "Send the brief"
   },
   "about": {
     "title": "About",
